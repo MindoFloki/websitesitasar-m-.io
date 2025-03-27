@@ -1,0 +1,91 @@
+body {
+    background-image: url('./images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    image-rendering: optimizeQuality;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(103, 77, 108, 0.8);
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.champion-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.champion-list img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
+
+#selected-champions-images img {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
+
+#selected-champions-info-container {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 50px; /* Sağa çek */
+    width: 300px; /* Genişliği artır */
+}
+
+#selected-champions-info {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: left;
+    font-size: 14px;
+    width: 200px; /* İçeriği genişlet */
+}
+
+#composition-warning {
+    background-color: rgba(29, 48, 171, 0.8);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#champion-abilities {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.ability-bar {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 5px;
+}
