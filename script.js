@@ -97,25 +97,7 @@ const championData = {
         e: 'Sihirsel Sıçrama',
         r: 'İsabetli Atış'
     },
-    'darius.jpg': {
-        type: 'AD',
-        name: 'Darius',
-        passive: 'Kanama',
-        q: 'Katliam',
-        w: 'Sakatla',
-        e: 'Yakala',
-        r: 'Noxus Giyotin'
-    },
-    'leesin.jpg': {
-        type: 'AD',
-        name: 'Lee Sin',
-        passive: 'Hiddet',
-        q: 'Ses Dalgası / Titreşim Darbesi',
-        w: 'Koruma Güdüsü / Demir İrade',
-        e: 'Yüzleşme / Sakatla',
-        r: 'Ejderhanın Gazabı'
-    }
-};
+
 
 Object.keys(championData).forEach(image => {
     const img = document.createElement('img');
